@@ -31,4 +31,3 @@ angular:
 Además, puedes utilizar nav2 y otras herramientas lanzando el siguiente comando:
 `ros2 launch webots_ros2_epuck robot_launch.py rviz:=true nav:=true`
 Más información sobre este proyecto en: https://github.com/cyberbotics/webots_ros2/wiki/Tutorial-E-puck-for-ROS2-Beginners 
-Más información sobre este proyecto en
