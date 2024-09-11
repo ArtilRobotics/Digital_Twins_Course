@@ -12,7 +12,9 @@ Al ejecutarlo, se abrirá una simulación donde podrás mover cada joint del rob
 
 ## 2.ws_test_webots
 Para ejecutar el robot en `ws_test_webots`, usa el siguiente comando:
+
 `ros2 launch my_package robot_launch.py`
+
 Este comando ejecuta un robot que se mueve de forma autónoma gracias a un paquete ROS2 y evita colisiones utilizando sus sensores.
 
 ## 3. ws_webots_epuck
