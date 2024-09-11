@@ -1,0 +1,46 @@
+# ros2_control_params.yaml
+
+controller_manager:
+  ros__parameters:
+    update_rate: 100 # Hz
+    controllers:
+      - type: "effort_controllers/JointPositionController"
+        name: "joint1_position_controller"
+        joint: "m1_continuous"
+        # other parameters specific to your controller
+
+      - type: "effort_controllers/JointPositionController"
+        name: "joint2_position_controller"
+        joint: "m2"
+        # other parameters specific to your controller
+
+      - type: "effort_controllers/JointPositionController"
+        name: "joint3_position_controller"
+        joint: "m3"
+        # other parameters specific to your controller
+
+      - type: "effort_controllers/JointPositionController"
+        name: "joint4_position_controller"
+        joint: "m4"
+        # other parameters specific to your controller
+
+      - type: "effort_controllers/JointPositionController"
+        name: "joint5_position_controller"
+        joint: "m5"
+        # other parameters specific to your controller
+
+robot:
+  ros__parameters:
+    # Define the hardware interfaces for each joint
+    hardware_interfaces:
+      - name: "m1_continuous"
+        type: "hardware_interface/EffortJointInterface"
+      - name: "m2"
+        type: "hardware_interface/EffortJointInterface"
+      - name: "m3"
+        type: "hardware_interface/EffortJointInterface"
+      - name: "m4"
+        type: "hardware_interface/EffortJointInterface"
+      - name: "m5"
+        type: "hardware_interface/EffortJointInterface"
+
