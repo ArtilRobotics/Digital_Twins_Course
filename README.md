@@ -19,8 +19,11 @@ Este comando ejecuta un robot que se mueve de forma autónoma gracias a un paque
 
 ## 3. ws_webots_epuck
 En este proyecto más completo, puedes ejecutar varios launch. Para iniciar el proyecto, utiliza el siguiente comando:
+
 `ros2 launch epuck_ros2 robot_launch.py`
+
 Puedes mover el robot publicando en el tópico /cmd_vel de la siguiente manera:
+
 `ros2 topic pub /cmd_vel geometry_msgs/Twist "linear:
   x: 0.1
   y: 0.0
@@ -30,6 +33,9 @@ angular:
   y: 0.0
   z: 0.0"
 `
+
 Además, puedes utilizar nav2 y otras herramientas lanzando el siguiente comando:
+
 `ros2 launch webots_ros2_epuck robot_launch.py rviz:=true nav:=true`
+
 Más información sobre este proyecto en: https://github.com/cyberbotics/webots_ros2/wiki/Tutorial-E-puck-for-ROS2-Beginners 
