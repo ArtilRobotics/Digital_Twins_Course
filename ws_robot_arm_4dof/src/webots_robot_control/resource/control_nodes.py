@@ -61,7 +61,7 @@ class JoystickPublisher(Node):
         self.publisher_m3.publish(Float32(data=speed3))
         self.publisher_m4.publish(Float32(data=speed4))
         self.publisher_m5.publish(Float32(data=speed5))
-        self.get_logger().info(f'Publicando: {speed1}, {speed2}, {speed3}, {speed4}, {speed5}')
+        #self.get_logger().info(f'Publicando: {speed1}, {speed2}, {speed3}, {speed4}, {speed5}')
 
 # Inicializar ROS 2
 rclpy.init()
