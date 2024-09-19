@@ -1,0 +1,1 @@
+Invoking command in '/home/artil/tello-ros2/workspace/build/tello_control': /usr/bin/cmake /home/artil/tello-ros2/workspace/src/tello_control -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/artil/tello-ros2/workspace/install/tello_control
